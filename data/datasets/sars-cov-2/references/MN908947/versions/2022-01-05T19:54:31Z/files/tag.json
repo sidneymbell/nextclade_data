@@ -19,7 +19,7 @@
     "reference": "reference.fasta",
     "sequences": "sequences.fasta",
     "tree": "tree.json",
-    "virusJson": "virus.json"
+    "virusPropertiesJson": "virus_properties.json"
   },
   "metadata": {}
 }
