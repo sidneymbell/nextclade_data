@@ -1,0 +1,9 @@
+strain	Accession	source	country	division	location	date	original_annotated_subtype	original_annotated_genotype	clade_membership
+HCV/S553_20090408_FL_C03/OK552687/USA/2009	KT595242	ictv	USA	?	?	2009-01-01	5	5	5
+HCV/NED5-4/KU871279/NETHERLANDS/2014	KU871279	ncbi	Netherlands	?	?	2014-01-01	?	?	5
+HCV/NED5-5/KU871280/NETHERLANDS/2014	KU871280	ncbi	Netherlands	?	?	2014-01-01	?	?	5
+HCV/NED5-1/KU871281/NETHERLANDS/2014	KU871281	ncbi	Netherlands	?	?	2014-01-01	?	?	5
+HCV/NED5-3/KU871282/NETHERLANDS/2014	KU871282	ncbi	Netherlands	?	?	2014-01-01	?	?	5
+HCV/M/KM587626/USA/2012	KM587626	ncbi	USA	?	?	2012-07-26	?	?	5
+HCV/5A_ZS631/KC844046/CHINA/2011	KC844046	ncbi	China	?	?	2011-XX-XX	5a	5	5
+HCV/ILBS/KF373567/INDIA/2012	KF373567	ncbi	India	?	?	2012-03-23	?	?	5

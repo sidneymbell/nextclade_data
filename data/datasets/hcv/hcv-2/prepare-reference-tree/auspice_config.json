@@ -1,0 +1,55 @@
+{
+  "title": "Hepatitis C - Genotype 2",
+  "maintainers": [
+    { "name": "Sidney Bell", "url": "https://sidneymbell.science" }
+  ],
+  "colorings": [
+    {
+      "key": "clade_membership",
+      "title": "Inferred genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "original_annotated_genotype",
+      "title": "Annotated genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "original_annotated_subtype",
+      "title": "Annotated subtype",
+      "type": "categorical"
+    },
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "source",
+      "title": "Data source",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": ["country"],
+  "panels": ["tree", "map", "entropy"],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "country",
+    "clade_membership",
+    "original_annotated_subtype",
+    "original_annotated_genotype",
+    "source"
+  ]
+}

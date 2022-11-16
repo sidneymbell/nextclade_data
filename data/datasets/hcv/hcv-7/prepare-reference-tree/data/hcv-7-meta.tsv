@@ -1,0 +1,5 @@
+strain	Accession	source	country	division	location	date	original_annotated_subtype	original_annotated_genotype	clade_membership
+HCV/S553_20090408_FL_B15/OK552684/USA/2009	KU861171	ictv	USA	?	?	2014-03-11	7	7	7
+HCV/S553_20090408_FL_C01/OK552686/USA/2009	KX092342	ictv	USA	?	?	2010-01-XX	7b	7	7
+HCV/KIN619/MH940291/DEMOCRATIC-REPUBLIC-OF-THE-CONGO/2015	MH940291	ncbi	Democratic Republic of the Congo	?	?	2015-01-06	?	?	7
+HCV/A/KX172138/BELGIUM/2014	KX172138	ncbi	Belgium	?	?	2014-11-XX	?	?	7
