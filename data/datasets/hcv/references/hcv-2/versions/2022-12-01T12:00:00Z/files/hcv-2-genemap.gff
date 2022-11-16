@@ -1,0 +1,12 @@
+## sequence-region	NC_009823	0	9712
+## seqname	source	feature	start	end	score	strand	frame	attribute
+NC_009823	feature	gene	340	913	.	+	0	gene=C
+NC_009823	feature	gene	913	1489	.	+	0	gene=E1
+NC_009823	feature	gene	1489	2590	.	+	0	gene=E2
+NC_009823	feature	gene	2590	2779	.	+	0	gene=p7
+NC_009823	feature	gene	2779	3430	.	+	0	gene=NS2
+NC_009823	feature	gene	3430	5323	.	+	0	gene=NS3
+NC_009823	feature	gene	5323	5485	.	+	0	gene=NS4A
+NC_009823	feature	gene	5485	6268	.	+	0	gene=NS4B
+NC_009823	feature	gene	6268	7666	.	+	0	gene=NS5A
+NC_009823	feature	gene	7666	9439	.	+	0	gene=NS5B

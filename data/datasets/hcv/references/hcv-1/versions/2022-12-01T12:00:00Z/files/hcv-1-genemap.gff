@@ -1,0 +1,12 @@
+## sequence-region NC_009824 1 9646
+## seqname	source	feature	start	end	score	strand	frame	attribute
+NC_004102	feature	gene	342	914	.	+	0	gene=C
+NC_004102	feature	gene	915	1490	.	+	0	gene=E1
+NC_004102	feature	gene	1491	2579	.	+	0	gene=E2
+NC_004102	feature	gene	2580	2768	.	+	0	gene=P7
+NC_004102	feature	gene	2769	3419	.	+	0	gene=NS2
+NC_004102	feature	gene	3420	5312	.	+	0	gene=NS3
+NC_004102	feature	gene	5313	5474	.	+	0	gene=NS4A
+NC_004102	feature	gene	5475	6257	.	+	0	gene=NS4B
+NC_004102	feature	gene	6258	7601	.	+	0	gene=NS5A
+NC_004102	feature	gene	7602	9374	.	+	0	gene=NS5B

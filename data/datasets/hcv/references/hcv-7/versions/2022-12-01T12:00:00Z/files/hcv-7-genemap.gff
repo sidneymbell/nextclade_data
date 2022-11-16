@@ -1,0 +1,12 @@
+## sequence-region	NC_030791	0	9444
+## seqname	source	feature	start	end	score	strand	frame	attribute
+NC_030791	feature	gene	339	912	.	+	0	gene=C
+NC_030791	feature	gene	912	1488	.	+	0	gene=E1
+NC_030791	feature	gene	1488	2589	.	+	0	gene=E2
+NC_030791	feature	gene	2589	2778	.	+	0	gene=p7
+NC_030791	feature	gene	2778	3429	.	+	0	gene=NS2
+NC_030791	feature	gene	3429	5322	.	+	0	gene=NS3
+NC_030791	feature	gene	5322	5484	.	+	0	gene=NS4A
+NC_030791	feature	gene	5484	6267	.	+	0	gene=NS4B
+NC_030791	feature	gene	6267	7605	.	+	0	gene=NS5A
+NC_030791	feature	gene	7605	9378	.	+	0	gene=NS5B

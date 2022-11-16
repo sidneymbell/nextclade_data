@@ -1,0 +1,33 @@
+{
+  "comment": "HCV - all genotypes - for lineage calling ONLY",
+  "compatibility": {
+    "nextcladeCli": {
+      "max": null,
+      "min": "2.0.0-alpha.0"
+    },
+    "nextcladeWeb": {
+      "max": null,
+      "min": "2.0.0-alpha.0"
+    }
+  },
+  "defaultRef": "NC_009824",
+  "enabled": true,
+  "files": {
+    "geneMap": "genemap.gff",
+    "primers": "primers.csv",
+    "qc": "qc.json",
+    "reference": "reference.fasta",
+    "sequences": "sequences.fasta",
+    "tree": "tree.json",
+    "virusPropertiesJson": "virus_properties.json"
+  },
+  "metadata": {},
+  "name": "hcv-all",
+  "nameFriendly": "Hepatitis C Virus",
+  "reference": {
+    "accession": "NC_009824",
+    "source": "genbank",
+    "strainName": "NC_009824"
+  },
+  "tag": "2022-10-10T12:00:00Z"
+}
