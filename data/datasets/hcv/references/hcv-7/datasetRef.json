@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "metadata": {},
+  "reference": {
+    "source": "genbank",
+    "accession": "NC_030791",
+    "strainName": "hcv-7-NC_030791"
+  }
+}

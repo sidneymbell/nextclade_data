@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "metadata": {},
+  "reference": {
+    "source": "genbank",
+    "accession": "NC_009824",
+    "strainName": "hcv-3-NC_009824"
+  }
+}
