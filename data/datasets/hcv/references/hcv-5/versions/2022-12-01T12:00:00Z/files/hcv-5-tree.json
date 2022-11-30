@@ -1,7 +1,7 @@
 {
   "version": "v2",
   "meta": {
-    "title": "Hepatitis C - Genotype 1",
+    "title": "Hepatitis C - Genotype 5",
     "updated": "2022-10-25",
     "maintainers": [
       {
@@ -126,13 +126,7 @@
         "type": "categorical"
       }
     ],
-    "filters": [
-      "country",
-      "clade_membership",
-      "original_annotated_subtype",
-      "original_annotated_genotype",
-      "source"
-    ],
+    "filters": ["country", "clade_membership", "original_annotated_subtype", "original_annotated_genotype", "source"],
     "geo_resolutions": [
       {
         "key": "country",
@@ -156,11 +150,7 @@
         }
       }
     ],
-    "panels": [
-      "tree",
-      "map",
-      "entropy"
-    ]
+    "panels": ["tree", "map", "entropy"]
   },
   "tree": {
     "name": "NODE_0000000",
@@ -841,21 +831,8 @@
               "I586L",
               "C587R"
             ],
-            "NS4A": [
-              "R34K",
-              "T38I"
-            ],
-            "NS4B": [
-              "V7M",
-              "K45R",
-              "H93Q",
-              "N130S",
-              "T146A",
-              "R162K",
-              "T164S",
-              "E167D",
-              "G218V"
-            ],
+            "NS4A": ["R34K", "T38I"],
+            "NS4B": ["V7M", "K45R", "H93Q", "N130S", "T146A", "R162K", "T164S", "E167D", "G218V"],
             "NS5A": [
               "F37L",
               "K41R",
@@ -900,19 +877,7 @@
               "T442A",
               "N571Y"
             ],
-            "p7": [
-              "T1A",
-              "C2L",
-              "K3E",
-              "N16T",
-              "V26I",
-              "L28F",
-              "V32F",
-              "V47I",
-              "V53L",
-              "R54L",
-              "R57L"
-            ]
+            "p7": ["T1A", "C2L", "K3E", "N16T", "V26I", "L28F", "V32F", "V47I", "V53L", "R54L", "R57L"]
           },
           "labels": {
             "aa": "C: K43R, N52T, P71S, S102G, P117R, R121K, H124D, P131A, H132D, S148A, K156R, I162V, P173S, V178I, W183S; E1: L40R, D42G, L66P, F80L, A89V, L93V, S94F, K103R, K134N, L166F, T174A, I181V, G192A; E2: R1G, T4I, T8A, V9A, G10A, G12T, L13A, K14S, S15G, T17A, S18R, N21T, R26Q, Q27N, F30L, V31I, S41R, M59I, A61V, S74A, T93N, C142Y, S149G, I154V, L155F, I160T, A164T, N181T, T213A, F250Y, E259D, Y266R, M338V, V340A, L354W, L356M, I359V; NS2: V16I, K29M, K58R, F84L, L104V, V120A, E157D, T159A, V166I, N186D, V190G, T211A, S212A; NS3: L19V, F35V, I46T, L55V, K91T, G92R, R96P, I143V, V170I, H195Q, F236L, G264A, F274L, I324T, V357A, L384Q, T403A, E527D, A550T, I586L, C587R; NS4A: R34K, T38I; NS4B: V7M, K45R, H93Q, N130S, T146A, R162K, T164S, E167D, G218V; NS5A: F37L, K41R, Q85H, A119V, T174C, N219D, N228S, I245T, K256E, E279V, C283S, K285E, E289A, E291D, K304R, K305R, W340S, I344L, P349L, L354P, M373L, V383A, S398G, H401P, N412D, G443D, N446S; NS5B: T5S, L47Q, G90E, V178I, D202E, I213T, I228V, V251A, I381V, K394R, A421V, T442A, N571Y; p7: T1A, C2L, K3E, N16T, V26I, L28F, V32F, V47I, V53L, R54L, R57L"
@@ -1032,28 +997,10 @@
                   "A9282G",
                   "A9309G"
                 ],
-                "E1": [
-                  "R40K",
-                  "E41Q",
-                  "F60L"
-                ],
-                "E2": [
-                  "G1D",
-                  "Q11R",
-                  "F19L",
-                  "V61F",
-                  "R77K",
-                  "H228D"
-                ],
-                "NS5A": [
-                  "A7V",
-                  "L79M",
-                  "D378H"
-                ],
-                "NS5B": [
-                  "K401R",
-                  "I512L"
-                ]
+                "E1": ["R40K", "E41Q", "F60L"],
+                "E2": ["G1D", "Q11R", "F19L", "V61F", "R77K", "H228D"],
+                "NS5A": ["A7V", "L79M", "D378H"],
+                "NS5B": ["K401R", "I512L"]
               },
               "labels": {
                 "aa": "E1: R40K, E41Q, F60L; E2: G1D, Q11R, F19L, V61F, R77K, H228D; NS5A: A7V, L79M, D378H; NS5B: K401R, I512L"
@@ -1470,17 +1417,8 @@
                       "G9321A",
                       "G9323A"
                     ],
-                    "C": [
-                      "T49P",
-                      "R70H",
-                      "A189T"
-                    ],
-                    "E1": [
-                      "Q41L",
-                      "V86I",
-                      "T139A",
-                      "V181A"
-                    ],
+                    "C": ["T49P", "R70H", "A189T"],
+                    "E1": ["Q41L", "V86I", "T139A", "V181A"],
                     "E2": [
                       "D1E",
                       "H3Q",
@@ -1525,20 +1463,8 @@
                       "A211G",
                       "A212K"
                     ],
-                    "NS3": [
-                      "Q195H",
-                      "V259I",
-                      "I288M",
-                      "R352K",
-                      "A402V",
-                      "A403S",
-                      "I609T"
-                    ],
-                    "NS4A": [
-                      "K34R",
-                      "I37V",
-                      "V43A"
-                    ],
+                    "NS3": ["Q195H", "V259I", "I288M", "R352K", "A402V", "A403S", "I609T"],
+                    "NS4A": ["K34R", "I37V", "V43A"],
                     "NS5A": [
                       "V12I",
                       "A21T",
@@ -1552,18 +1478,8 @@
                       "S446N",
                       "V447L"
                     ],
-                    "NS5B": [
-                      "K77G",
-                      "E90G",
-                      "G121S",
-                      "S238T",
-                      "V421A",
-                      "A442T"
-                    ],
-                    "p7": [
-                      "L43F",
-                      "L56F"
-                    ]
+                    "NS5B": ["K77G", "E90G", "G121S", "S238T", "V421A", "A442T"],
+                    "p7": ["L43F", "L56F"]
                   },
                   "labels": {
                     "aa": "C: T49P, R70H, A189T; E1: Q41L, V86I, T139A, V181A; E2: D1E, H3Q, I4V, G6A, T12S, S14Y, R18G, P24A, Q25R, I59L, F61Y, A81K, D119E, G149E, V154I, F155L, N188D, T192S, Y250F, D259S, D271N, I355V; NS2: D5E, T8S, L17I, V30I, V44L, I47L, M66L, H72Y, H95Y, K99N, V100M, L112M, A116V, Y121C, A169T, I209V, A211G, A212K; NS3: Q195H, V259I, I288M, R352K, A402V, A403S, I609T; NS4A: K34R, I37V, V43A; NS5A: V12I, A21T, V119A, Y127S, H378Q, P401S, G404R, K408R, E444D, S446N, V447L; NS5B: K77G, E90G, G121S, S238T, V421A, A442T; p7: L43F, L56F"
@@ -2046,13 +1962,7 @@
                       "T9187C",
                       "C9261T"
                     ],
-                    "C": [
-                      "R43K",
-                      "L44M",
-                      "S71P",
-                      "L85F",
-                      "A94T"
-                    ],
+                    "C": ["R43K", "L44M", "S71P", "L85F", "A94T"],
                     "E1": [
                       "V9L",
                       "A25T",
@@ -2107,24 +2017,9 @@
                       "D208N",
                       "A211E"
                     ],
-                    "NS3": [
-                      "V18I",
-                      "C47S",
-                      "V143I",
-                      "N387H"
-                    ],
-                    "NS4A": [
-                      "L5I",
-                      "A14T"
-                    ],
-                    "NS4B": [
-                      "A2T",
-                      "E19D",
-                      "R45K",
-                      "Q93H",
-                      "K162R",
-                      "S244A"
-                    ],
+                    "NS3": ["V18I", "C47S", "V143I", "N387H"],
+                    "NS4A": ["L5I", "A14T"],
+                    "NS4B": ["A2T", "E19D", "R45K", "Q93H", "K162R", "S244A"],
                     "NS5A": [
                       "G2D",
                       "R6K",
@@ -2143,18 +2038,7 @@
                       "D412N",
                       "D443E"
                     ],
-                    "NS5B": [
-                      "L74S",
-                      "E90K",
-                      "L116I",
-                      "D128N",
-                      "A252V",
-                      "Q258H",
-                      "S476T",
-                      "R517K",
-                      "L525P",
-                      "K531R"
-                    ]
+                    "NS5B": ["L74S", "E90K", "L116I", "D128N", "A252V", "Q258H", "S476T", "R517K", "L525P", "K531R"]
                   },
                   "labels": {
                     "aa": "C: R43K, L44M, S71P, L85F, A94T; E1: V9L, A25T, D26E, N27D, Q41H, T108H, V110A, L142V, L147V, S173M, A174I, A175S; E2: A9T, T12A, L16F, R18S, T21Q, P22R, P24S, Q25H, N27K, A80T, D83A, T88A, R118K, R139H, N146S, G149A, N195D, D259Q, A278S, F297Y, T300V, V332I, I349V; NS2: K28R, R43P, H49Q, P54S, V64I, F71L, T98I, V100L, K148T, V160T, R199H, D208N, A211E; NS3: V18I, C47S, V143I, N387H; NS4A: L5I, A14T; NS4B: A2T, E19D, R45K, Q93H, K162R, S244A; NS5A: G2D, R6K, V7I, S54Y, T62A, V99I, A116T, K382E, A383V, D384N, G398D, S399D, D402S, G404E, D412N, D443E; NS5B: L74S, E90K, L116I, D128N, A252V, Q258H, S476T, R517K, L525P, K531R"
@@ -2210,20 +2094,9 @@
                   "T8106C",
                   "T9036A"
                 ],
-                "E2": [
-                  "V5A",
-                  "R18S",
-                  "Q51H",
-                  "S175A",
-                  "R214K"
-                ],
-                "NS3": [
-                  "E168D",
-                  "A402T"
-                ],
-                "NS5A": [
-                  "M362I"
-                ]
+                "E2": ["V5A", "R18S", "Q51H", "S175A", "R214K"],
+                "NS3": ["E168D", "A402T"],
+                "NS5A": ["M362I"]
               },
               "labels": {
                 "aa": "E2: V5A, R18S, Q51H, S175A, R214K; NS3: E168D, A402T; NS5A: M362I"
@@ -2384,53 +2257,15 @@
                       "A8998C",
                       "A9036G"
                     ],
-                    "C": [
-                      "A87G"
-                    ],
-                    "E1": [
-                      "P2H",
-                      "T108N",
-                      "M143V"
-                    ],
-                    "E2": [
-                      "Q11H",
-                      "S14G",
-                      "P24A",
-                      "Q25K",
-                      "T33S",
-                      "I59F",
-                      "D99N",
-                      "D119N",
-                      "L156I",
-                      "D259E"
-                    ],
-                    "NS2": [
-                      "V33A",
-                      "M66L",
-                      "I79V",
-                      "T98I",
-                      "L114M",
-                      "A211S"
-                    ],
-                    "NS3": [
-                      "I170V",
-                      "I288M"
-                    ],
-                    "NS4A": [
-                      "I37V"
-                    ],
-                    "NS4B": [
-                      "I131V",
-                      "S164T"
-                    ],
-                    "NS5A": [
-                      "S54T"
-                    ],
-                    "NS5B": [
-                      "P84S",
-                      "E90K",
-                      "K209R"
-                    ]
+                    "C": ["A87G"],
+                    "E1": ["P2H", "T108N", "M143V"],
+                    "E2": ["Q11H", "S14G", "P24A", "Q25K", "T33S", "I59F", "D99N", "D119N", "L156I", "D259E"],
+                    "NS2": ["V33A", "M66L", "I79V", "T98I", "L114M", "A211S"],
+                    "NS3": ["I170V", "I288M"],
+                    "NS4A": ["I37V"],
+                    "NS4B": ["I131V", "S164T"],
+                    "NS5A": ["S54T"],
+                    "NS5B": ["P84S", "E90K", "K209R"]
                   },
                   "labels": {
                     "aa": "C: A87G; E1: P2H, T108N, M143V; E2: Q11H, S14G, P24A, Q25K, T33S, I59F, D99N, D119N, L156I, D259E; NS2: V33A, M66L, I79V, T98I, L114M, A211S; NS3: I170V, I288M; NS4A: I37V; NS4B: I131V, S164T; NS5A: S54T; NS5B: P84S, E90K, K209R"
@@ -2745,12 +2580,7 @@
                           "C9315G",
                           "A9331G"
                         ],
-                        "C": [
-                          "R70Q",
-                          "N106S",
-                          "N110S",
-                          "L139F"
-                        ],
+                        "C": ["R70Q", "N106S", "N110S", "L139F"],
                         "E1": [
                           "N18D",
                           "E41K",
@@ -2790,27 +2620,10 @@
                           "T286S",
                           "A340V"
                         ],
-                        "NS2": [
-                          "V30I",
-                          "H49Y",
-                          "V100M",
-                          "A120V",
-                          "Y121C"
-                        ],
-                        "NS3": [
-                          "V153I",
-                          "V259I",
-                          "I300V",
-                          "F418Y",
-                          "T433I",
-                          "S478A"
-                        ],
-                        "NS4A": [
-                          "K34R"
-                        ],
-                        "NS4B": [
-                          "L240I"
-                        ],
+                        "NS2": ["V30I", "H49Y", "V100M", "A120V", "Y121C"],
+                        "NS3": ["V153I", "V259I", "I300V", "F418Y", "T433I", "S478A"],
+                        "NS4A": ["K34R"],
+                        "NS4B": ["L240I"],
                         "NS5A": [
                           "V34L",
                           "L79M",
@@ -2823,20 +2636,8 @@
                           "D411N",
                           "D443E"
                         ],
-                        "NS5B": [
-                          "K72R",
-                          "R81G",
-                          "D128N",
-                          "V228I",
-                          "E248D",
-                          "H330Q",
-                          "S335G",
-                          "I520V"
-                        ],
-                        "p7": [
-                          "G22A",
-                          "C44Y"
-                        ]
+                        "NS5B": ["K72R", "R81G", "D128N", "V228I", "E248D", "H330Q", "S335G", "I520V"],
+                        "p7": ["G22A", "C44Y"]
                       },
                       "labels": {
                         "aa": "C: R70Q, N106S, N110S, L139F; E1: N18D, E41K, G42D, V44S, R69K, H107L, T109L, V110T, D112G, V143A, I154V, A158T, V181A; E2: A8V, A10G, A13T, L16V, F19L, I31V, H51Q, I55F, K63R, R77K, T88P, P97S, P116S, R118Q, N119K, R140T, G149V, F178Y, D209G, V240I, T286S, A340V; NS2: V30I, H49Y, V100M, A120V, Y121C; NS3: V153I, V259I, I300V, F418Y, T433I, S478A; NS4A: K34R; NS4B: L240I; NS5A: V34L, L79M, A116T, V119A, N166S, A383T, G398A, K408R, D411N, D443E; NS5B: K72R, R81G, D128N, V228I, E248D, H330Q, S335G, I520V; p7: G22A, C44Y"
@@ -4877,14 +4678,7 @@
                           "A604P",
                           "I609T"
                         ],
-                        "NS4A": [
-                          "V10L",
-                          "L13A",
-                          "T19A",
-                          "A24V",
-                          "I30V",
-                          "A36V"
-                        ],
+                        "NS4A": ["V10L", "L13A", "T19A", "A24V", "I30V", "A36V"],
                         "NS4B": [
                           "A2T",
                           "S3T",
@@ -5156,34 +4950,13 @@
                       "C9201T",
                       "C9207T"
                     ],
-                    "E1": [
-                      "V89A"
-                    ],
-                    "E2": [
-                      "G149S"
-                    ],
-                    "NS2": [
-                      "V44L",
-                      "A116V"
-                    ],
-                    "NS3": [
-                      "V18I",
-                      "T122A",
-                      "R244K",
-                      "I485M"
-                    ],
-                    "NS4B": [
-                      "H53Y",
-                      "T251A"
-                    ],
-                    "NS5A": [
-                      "C174S"
-                    ],
-                    "NS5B": [
-                      "P84T",
-                      "E120K",
-                      "R309Q"
-                    ]
+                    "E1": ["V89A"],
+                    "E2": ["G149S"],
+                    "NS2": ["V44L", "A116V"],
+                    "NS3": ["V18I", "T122A", "R244K", "I485M"],
+                    "NS4B": ["H53Y", "T251A"],
+                    "NS5A": ["C174S"],
+                    "NS5B": ["P84T", "E120K", "R309Q"]
                   },
                   "labels": {
                     "aa": "E1: V89A; E2: G149S; NS2: V44L, A116V; NS3: V18I, T122A, R244K, I485M; NS4B: H53Y, T251A; NS5A: C174S; NS5B: P84T, E120K, R309Q"
@@ -5587,19 +5360,8 @@
                           "C9150T",
                           "C9171T"
                         ],
-                        "C": [
-                          "R70Q"
-                        ],
-                        "E1": [
-                          "V9I",
-                          "N27D",
-                          "V93L",
-                          "L142V",
-                          "V152A",
-                          "I154V",
-                          "G160S",
-                          "F185V"
-                        ],
+                        "C": ["R70Q"],
+                        "E1": ["V9I", "N27D", "V93L", "L142V", "V152A", "I154V", "G160S", "F185V"],
                         "E2": [
                           "G1S",
                           "H3V",
@@ -5616,16 +5378,7 @@
                           "Y250F",
                           "I349V"
                         ],
-                        "NS2": [
-                          "I16V",
-                          "K28R",
-                          "I79V",
-                          "T98A",
-                          "L119V",
-                          "K148R",
-                          "A169D",
-                          "A211T"
-                        ],
+                        "NS2": ["I16V", "K28R", "I79V", "T98A", "L119V", "K148R", "A169D", "A211T"],
                         "NS3": [
                           "N174S",
                           "V248M",
@@ -5638,40 +5391,11 @@
                           "M585L",
                           "E608D"
                         ],
-                        "NS4A": [
-                          "V20M"
-                        ],
-                        "NS4B": [
-                          "L24Y",
-                          "Q30A",
-                          "S44N",
-                          "T91S",
-                          "V136I",
-                          "L168M",
-                          "A251E"
-                        ],
-                        "NS5A": [
-                          "A7D",
-                          "G114S",
-                          "Q246R",
-                          "E285D",
-                          "T385A",
-                          "T397S",
-                          "G398S"
-                        ],
-                        "NS5B": [
-                          "L85I",
-                          "D131E",
-                          "E202D",
-                          "I297F",
-                          "A322V",
-                          "V355T",
-                          "V421A",
-                          "S476T"
-                        ],
-                        "p7": [
-                          "F32I"
-                        ]
+                        "NS4A": ["V20M"],
+                        "NS4B": ["L24Y", "Q30A", "S44N", "T91S", "V136I", "L168M", "A251E"],
+                        "NS5A": ["A7D", "G114S", "Q246R", "E285D", "T385A", "T397S", "G398S"],
+                        "NS5B": ["L85I", "D131E", "E202D", "I297F", "A322V", "V355T", "V421A", "S476T"],
+                        "p7": ["F32I"]
                       },
                       "labels": {
                         "aa": "C: R70Q; E1: V9I, N27D, V93L, L142V, V152A, I154V, G160S, F185V; E2: G1S, H3V, I4V, A5T, Q11Y, A17T, F19L, Q25A, M73L, A81T, T88A, A213S, Y250F, I349V; NS2: I16V, K28R, I79V, T98A, L119V, K148R, A169D, A211T; NS3: N174S, V248M, V256I, A297S, R352K, F418Y, S430T, A431T, M585L, E608D; NS4A: V20M; NS4B: L24Y, Q30A, S44N, T91S, V136I, L168M, A251E; NS5A: A7D, G114S, Q246R, E285D, T385A, T397S, G398S; NS5B: L85I, D131E, E202D, I297F, A322V, V355T, V421A, S476T; p7: F32I"
@@ -5737,23 +5461,10 @@
                               "G8940A",
                               "T8949C"
                             ],
-                            "E1": [
-                              "V153I"
-                            ],
-                            "E2": [
-                              "A13T",
-                              "S14R",
-                              "L19I",
-                              "T21S",
-                              "V61I",
-                              "H62R"
-                            ],
-                            "NS2": [
-                              "Y139C"
-                            ],
-                            "NS4B": [
-                              "V190I"
-                            ]
+                            "E1": ["V153I"],
+                            "E2": ["A13T", "S14R", "L19I", "T21S", "V61I", "H62R"],
+                            "NS2": ["Y139C"],
+                            "NS4B": ["V190I"]
                           },
                           "labels": {
                             "aa": "E1: V153I; E2: A13T, S14R, L19I, T21S, V61I, H62R; NS2: Y139C; NS4B: V190I"
@@ -5779,23 +5490,9 @@
                         },
                         "branch_attrs": {
                           "mutations": {
-                            "nuc": [
-                              "G1450A",
-                              "C1451T",
-                              "T1610C",
-                              "T2849C",
-                              "G2899A",
-                              "C6265T",
-                              "G8004A"
-                            ],
-                            "E2": [
-                              "A8I",
-                              "V61A"
-                            ],
-                            "NS2": [
-                              "I47T",
-                              "V64I"
-                            ]
+                            "nuc": ["G1450A", "C1451T", "T1610C", "T2849C", "G2899A", "C6265T", "G8004A"],
+                            "E2": ["A8I", "V61A"],
+                            "NS2": ["I47T", "V64I"]
                           },
                           "labels": {
                             "aa": "E2: A8I, V61A; NS2: I47T, V64I"
@@ -6295,13 +5992,7 @@
                           "G9138A",
                           "A9140G"
                         ],
-                        "C": [
-                          "T15I",
-                          "L44M",
-                          "A48G",
-                          "S71P",
-                          "L139V"
-                        ],
+                        "C": ["T15I", "L44M", "A48G", "S71P", "L139V"],
                         "E1": [
                           "E41T",
                           "R46M",
@@ -6352,14 +6043,7 @@
                           "A345S",
                           "V359I"
                         ],
-                        "NS2": [
-                          "I47A",
-                          "H95Q",
-                          "V100L",
-                          "L119F",
-                          "L135V",
-                          "A145T"
-                        ],
+                        "NS2": ["I47A", "H95Q", "V100L", "L119F", "L135V", "A145T"],
                         "NS3": [
                           "C47S",
                           "T91S",
@@ -6375,10 +6059,7 @@
                           "T593I",
                           "A604P"
                         ],
-                        "NS4B": [
-                          "L22I",
-                          "C159S"
-                        ],
+                        "NS4B": ["L22I", "C159S"],
                         "NS5A": [
                           "I158L",
                           "F161Y",
@@ -6414,9 +6095,7 @@
                           "S480G",
                           "K531R"
                         ],
-                        "p7": [
-                          "H31Y"
-                        ]
+                        "p7": ["H31Y"]
                       },
                       "labels": {
                         "aa": "C: T15I, L44M, A48G, S71P, L139V; E1: E41T, R46M, G61E, H107Y, T108A, L141F, M143T, F171Y, A174V, A175G, V181A, F187V; E2: G1E, H3Y, Q11K, T12A, S14Y, G15S, F19W, T21A, Q25R, T33S, I59M, V61I, H62R, K63N, P78S, A81S, S90T, P97S, R118Q, D119Q, R139K, R140A, Y142V, T144S, V154I, N159S, F178Y, T192G, D209G, H228D, D271N, E273D, A345S, V359I; NS2: I47A, H95Q, V100L, L119F, L135V, A145T; NS3: C47S, T91S, V153I, Q195H, I252L, A264S, A357S, Q384L, E447D, S478A, G553S, T593I, A604P; NS4B: L22I, C159S; NS5A: I158L, F161Y, C165T, D251E, D253E, G267S, A347V, G348A, K358R, R359K, A383T, Q391R, S393G, G396D, G398D, G404R; NS5B: Q47L, L74S, R81N, E90G, K117N, K151R, K209R, A252V, K307R, Q309K, C311Y, T329I, T385S, S480G, K531R; p7: H31Y"
@@ -6456,21 +6135,10 @@
                               "T9246G",
                               "G9247C"
                             ],
-                            "E1": [
-                              "D26N"
-                            ],
-                            "E2": [
-                              "I4L",
-                              "F20L",
-                              "I61F"
-                            ],
-                            "NS4B": [
-                              "R45K"
-                            ],
-                            "NS5B": [
-                              "R566P",
-                              "A567P"
-                            ]
+                            "E1": ["D26N"],
+                            "E2": ["I4L", "F20L", "I61F"],
+                            "NS4B": ["R45K"],
+                            "NS5B": ["R566P", "A567P"]
                           },
                           "labels": {
                             "aa": "E1: D26N; E2: I4L, F20L, I61F; NS4B: R45K; NS5B: R566P, A567P"
@@ -6521,25 +6189,10 @@
                               "C7735T",
                               "G8716A"
                             ],
-                            "E1": [
-                              "I154F"
-                            ],
-                            "E2": [
-                              "A5T",
-                              "K11R",
-                              "A13V",
-                              "Y14S",
-                              "L16I",
-                              "P24A"
-                            ],
-                            "NS5A": [
-                              "A7V",
-                              "G393S"
-                            ],
-                            "NS5B": [
-                              "H63Y",
-                              "V390I"
-                            ]
+                            "E1": ["I154F"],
+                            "E2": ["A5T", "K11R", "A13V", "Y14S", "L16I", "P24A"],
+                            "NS5A": ["A7V", "G393S"],
+                            "NS5B": ["H63Y", "V390I"]
                           },
                           "labels": {
                             "aa": "E1: I154F; E2: A5T, K11R, A13V, Y14S, L16I, P24A; NS5A: A7V, G393S; NS5B: H63Y, V390I"
