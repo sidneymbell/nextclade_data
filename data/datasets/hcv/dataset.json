@@ -1,0 +1,9 @@
+{
+  "defaultGene": "S",
+  "defaultRef": "hcv-all",
+  "enabled": true,
+  "geneOrderPreference": [],
+  "metadata": {},
+  "name": "hcv-all",
+  "nameFriendly": "All HCV genotypes - for genotype assignment ONLY - use genotype specific references for QC and mutations."
+}
