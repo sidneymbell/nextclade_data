@@ -13,12 +13,12 @@
   },
   "enabled": true,
   "files": {
-    "geneMap": "hcv-all-genemap.gff",
+    "geneMap": "hcv-7-genemap.gff",
     "primers": "primers.csv",
     "qc": "qc.json",
-    "reference": "hcv-all-reference.fasta",
+    "reference": "hcv-7-reference.fasta",
     "sequences": "sequences.fasta",
-    "tree": "hcv-all-tree.json"
+    "tree": "hcv-7-tree.json"
   },
   "metadata": {}
 }

@@ -1,33 +1,24 @@
 {
-  "name": "hcv-1",
-  "nameFriendly": "Hepatitis C Virus - Genotype 1",
-  "reference": {
-    "accession": "NC_004102",
-    "source": "genbank",
-    "strainName": "NC_004102"
-  },
-  "tag": "2022-10-10T12:00:00Z",
-  "defaultRef": "NC_004102",
-  "comment": "HCV-1",
+  "tag": "2022-12-01T00:00:00Z",
+  "comment": "Initial release",
   "compatibility": {
     "nextcladeCli": {
-      "max": null,
-      "min": "2.0.0-alpha.0"
+      "min": "1.3.0",
+      "max": null
     },
     "nextcladeWeb": {
-      "max": null,
-      "min": "2.0.0-alpha.0"
+      "min": "1.6.0",
+      "max": null
     }
   },
   "enabled": true,
   "files": {
-    "geneMap": "hcv-1-genemap.gff",
+    "geneMap": "hcv-2-genemap.gff",
     "primers": "primers.csv",
     "qc": "qc.json",
-    "reference": "hcv-1-reference.fasta",
-    "sequences": "hcv-1-sequences.fasta",
-    "tree": "hcv-1-tree.json",
-    "virusPropertiesJson": "virus_properties.json"
+    "reference": "hcv-2-reference.fasta",
+    "sequences": "sequences.fasta",
+    "tree": "hcv-2-tree.json"
   },
   "metadata": {}
 }
